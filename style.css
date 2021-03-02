@@ -48,3 +48,18 @@ footer{
   width: 100%;
   background-color:#aaaaaa
 }
+
+@media screen and (max-width: 768px){
+  main{
+    width: 100%;
+    flex-direction: column;
+  }
+  .steps{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .steps:last-child{
+    margin-bottom: 0;
+  }
+}
